@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>David Queen</title>
+  <link rel="stylesheet" media="all"  type="text/css" href="index.css">
+  <link rel="stylesheet" media="print" href="print.css">
+  <link rel="stylesheet"  media = "all" type="text/css" href="grid.css"/>
+</head>
+<body>
+  <main class="container">  
+  <header class="col-full container">
+    <h1 id="logo" class="col-left">DQ</h1>
+    <div><h1>David Queen Jr</h1>
+    <p><strong>FullStack Developer</strong></p>
+    </div>
+    <div>
+    <nav>
+      <a href="https://github.com/dcoollx" target="_blank">Github</a>
+      <a href = "https://www.linkedin.com/in/david-queen-jr-35092a73/" target="_blank">Linkedin</a>
+      <a href="https://dcoollx.github.io/Portfolio/" target="_blank">Portfolio</a>
+    </nav>
+    <p id="contact_info">Douglasville, Georgia >><a href="mailto: dsqjr@msn.com"> dsqjr@msn.com</a> >> (609)402-1649</p>
+    </div>
+  </header>
+    <div class="col-full">
+        <section>
+            <h2 class="subTitle col-full">Experience</h2>
+            <ul class="col-ful">
+              <li><a href="https://symptomtracker.rambo.now.sh" target="_blank">Symptom Tracker</a> <strong class="date">Sept-October 2019</strong> <p> A nutrition & food diary that helps highlight ingredients that may have a negetive impact on the user health, by tracking when the user consumes a certain food, and various symptoms the user may experience there-after-- Developed using <i>Agile</i> Methodologies</p><p><strong>Project Manager</strong></p> <p><strong>Tech Stack:<i>ReactJS, ExpressJS, Jest, Charts.js</i></strong></p></li>
+          <li><p><a href="http://corkboard.dcoollx.now.sh" target="_blank">Corkboard</a> <a href="https://github.com/dcoollx/Corkboard-client" target="_blank">Client repo</a> <a href="https://github.com/dcoollx/Corkboard-Server">Server Repo</a>A light weight inter-organizational notification app</p><p><strong>Lead Programmer</strong></p> <p><strong>Tech Stack:<i>ReactJS, ExpressJS, Jest</i></strong></p></li>
+          <li><p><a href="#" target="_blank">Spaced!</a> <a href="#">repo</a> - A Space-repetition language learning app. Express, cypress, Postgres, React </p><p><strong>Team Member</strong></p> <p><strong>Tech Stack:<i>ReactJS, ExpressJS, Jest, Charts.js</i></strong></p></li>
+          <li><a href="https://github.com/dcoollx/TileMapLoaderForIRR" target="_blank">IrrMap</a> - An Extension to the graphical engine <a href="http://irrlicht.sourceforge.net/" target="_blank">Irrlicht</a> to enable easily implementing 2d tile-based rendering <strong>Personal Project</strong> <strong>Tech: C++, STL, Visual Studios</strong></li>
+        </ul>
+      
+          </section>
+    <section>
+      <h2 class="subTitle ">About Me</h2>
+      <p class="col-right">
+          I am a highly skilled, detail oriented full-stack developer. It is my goal to constantly look for creative solutions to today’s technology problems. I have excellent written and verbal communication skills, and I have worked as part of a team and autonomously on projects from inception through to conclusion and into implementation.
+      </p></section>
+    <section><h2 class="subTitle">Skills & Expertise</h2>
+      <div class="container">
+      <ul>
+      <li>Object Oriented Programming</li>
+      <li>A11y complience</li>
+      <li>Pair Programming</li>
+      <li>MVC Architechure</li>
+      </ul>
+    </ul>
+      <ul>
+        <li>Express</li>
+      <li>JSON, XML</li>
+      <li>RESTful API</li>
+      <li>NodeJS</li>
+      <li>Mocha/Jest</li>
+      <li>Postgres</li>
+      <li>MySQL</li>
+      </ul>
+  
+      <ul>
+      <li>Agile, Waterfall SDLC</li>
+      <li>Object Oriented Programming</li>
+      <li>Git/Github</li>
+      <li>slack</li>
+      </ul>
+  
+      
+    </ul>
+  </div>
+    </section>
+    <section>
+      <h2 class="subTitle">Employment</h2>
+    <ul class="col-right">
+      <li><strong>ThinkFul</strong><br/>
+          Learned industry best practices and practical software development standards with a focus on HTML5, CSS3, JavaScript, jQuery, Node.js, React, Redux, and algorithms & data structures.
+          Created and deployed mobile-first applicationswhile learning new languages and frameworks by collaborating several hours every week with a senior web developer, and leading small development teams
+      </li>
+      <li><strong>Cobb County School District</strong>
+      <br/> Worked autonomously to transport children to school in a timely manner.
+      </li>
+      <li>Sheppard Bus Service</li>
+      <li><strong>Atlantic County Insitute of Technology</strong> NTHS(national technical honor society)</li>
+      </ul>
+    
+    </section>
+    </div>
+
+  </main>
+  
+  <footer id="footer">
+
+    <p>&copy; 2019 David Queen</p>
+    <a href="https://github.com/dcoollx" target="_blank">Github</a>
+    <a href = "https://www.linkedin.com/in/david-queen-jr-35092a73/" target="_blank">Linkedin</a>
+    <a href="https://dcoollx.github.io/Portfolio/" target="_blank">Portfolio</a>
+  </footer>
+  <script>
+    //this allows html -> pdf api tp print page without the save to pdf button on bottom
+    setTimeout(()=>{let link = document.createElement('a');
+    link.className = "save_to_pdf";
+    link.href="https://www.sejda.com/html-to-pdf?save-link&viewportWidth=800&usePrintMedia=true";
+    link.target = "_blank";
+    link.innerHTML = "Save to PDF";
+    document.getElementById('footer').append(link);},2000)
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,17 @@
+
+main{
+background-color:  #f3f3f3;
+width:8.5in;/* the size of a4 paper */
+height: 11in;
+border: 1px solid black;
+margin:auto;
+border-collapse: collapse;
+}
+#footer,
+.save_to_pdf{
+  opacity: 0;
+}
+
+
+
+
