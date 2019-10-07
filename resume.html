@@ -12,42 +12,66 @@
 <body>
   <main class="container">  
   <header class="col-full container">
+    <div class="container">
     <h1 id="logo" class="col-left">DQ</h1>
-    <div><h1>David Queen Jr</h1>
+    <div>
+    <h1>David Queen Jr</h1>
     <p><strong>FullStack Developer</strong></p>
+  </div>
     </div>
     <div>
     <nav>
-      <a href="https://github.com/dcoollx" target="_blank">Github</a>
-      <a href = "https://www.linkedin.com/in/david-queen-jr-35092a73/" target="_blank">Linkedin</a>
+      <a href="https://github.com/dcoollx" target="_blank">Github</a>|
+      <a href = "https://www.linkedin.com/in/david-queen-jr-35092a73/" target="_blank">Linkedin</a>|
       <a href="https://dcoollx.github.io/Portfolio/" target="_blank">Portfolio</a>
     </nav>
     <p id="contact_info">Douglasville, Georgia >><a href="mailto: dsqjr@msn.com"> dsqjr@msn.com</a> >> (609)402-1649</p>
     </div>
   </header>
     <div class="col-full">
-        <section>
+        <section class="container">
+          <div id="about_me">
+            <h2 class="subTitle ">About Me</h2>
+            <p>
+                I am a highly-skilled, detail-oriented full-stack developer. It is my goal to constantly look for creative solutions to today’s technology problems. I have excellent written and verbal communication skills, and I have worked as part of a team and autonomously on projects from inception through to conclusion and into implementation. I enjoy encountering and mastering new technology
+            </p>
+          </div>
+            
+          <div class="col-right" id="tech">
+            <h2>languages/Technologies</h2>
+            <ul>
+              <li>HTML5,JavaScript,Css <progress step="1" max="10" value="9" /></li>
+              <li>ReactJS, MVC  <progess step="1" max="10" value="9"/></li>
+              <li>Bootstrap <progress step="1" max="10" value="8" disabled="true"/></li>
+              <li>Unit Testing (JEST/Cypress/Mocha)  <progress step="1" max="10" value="7"/></li>
+              <li> Native Development (Cordova) <progress step="1" max="10" value="9"/></li>
+              <li>SQL <progress max="10" value="8"/></li>
+            </ul>
+          </div>
+        </section>
+          </div>
+          
+        <section class="col-full">
             <h2 class="subTitle col-full">Experience</h2>
             <ul class="col-ful">
-              <li><a href="https://symptomtracker.rambo.now.sh" target="_blank">Symptom Tracker</a> <strong class="date">Sept-October 2019</strong> <p> A nutrition & food diary that helps highlight ingredients that may have a negetive impact on the user health, by tracking when the user consumes a certain food, and various symptoms the user may experience there-after-- Developed using <i>Agile</i> Methodologies</p><p><strong>Project Manager</strong></p> <p><strong>Tech Stack:<i>ReactJS, ExpressJS, Jest, Charts.js</i></strong></p></li>
-          <li><p><a href="http://corkboard.dcoollx.now.sh" target="_blank">Corkboard</a> <a href="https://github.com/dcoollx/Corkboard-client" target="_blank">Client repo</a> <a href="https://github.com/dcoollx/Corkboard-Server">Server Repo</a>A light weight inter-organizational notification app</p><p><strong>Lead Programmer</strong></p> <p><strong>Tech Stack:<i>ReactJS, ExpressJS, Jest</i></strong></p></li>
-          <li><p><a href="#" target="_blank">Spaced!</a> <a href="#">repo</a> - A Space-repetition language learning app. Express, cypress, Postgres, React </p><p><strong>Team Member</strong></p> <p><strong>Tech Stack:<i>ReactJS, ExpressJS, Jest, Charts.js</i></strong></p></li>
-          <li><a href="https://github.com/dcoollx/TileMapLoaderForIRR" target="_blank">IrrMap</a> - An Extension to the graphical engine <a href="http://irrlicht.sourceforge.net/" target="_blank">Irrlicht</a> to enable easily implementing 2d tile-based rendering <strong>Personal Project</strong> <strong>Tech: C++, STL, Visual Studios</strong></li>
+              <li><a href="https://symptomtracker.rambo.now.sh" target="_blank">Symptom Tracker</a> <strong class="date">September-October 2019</strong> <p> A nutrition & food diary that helps highlight ingredients that may have a negative impact on the user's health, by tracking when the user consumes a certain food, and various symptoms the user may experience thereafter-- Developed using <i>Agile</i> Methodologies<br/><strong>Role:</strong> Served as Project manager for a team of six, managed issue board and task assignment for entire project. <br/><strong>Tech Stack:<i>ReactJS, ExpressJS, Jest, Charts.js</i></strong></p><hr/></li>
+          
+              <li><a href="http://corkboard.dcoollx.now.sh" target="_blank">Corkboard</a> <strong class="date">July 2019</strong><a href="https://github.com/dcoollx/Corkboard-client" target="_blank"><img class="icon" src="github_icon.jpg" alt="corkboard client"/></a> <a href="https://github.com/dcoollx/Corkboard-Server"><img class="icon" src="github_icon.jpg"/></a><p>A lightweight inter-organizational notification app, Allows organizations to Deliver messages to all employees or only those who belong to certain departments, teams or groups</br><strong>Role: </strong> Solo Project, Conceptualized, Designed and implemented project from beginning to deployment, built using test-driven development</br><strong>Tech Stack:<i>ReactJS, ExpressJS, Jest, Markdown.js</i></strong></p><hr/></li>
+          <li><p><a href="#" target="_blank">Spaced!</a> <a href="https://github.com/thinkful-ei-emu/Spaced-Repetition-Client-Corey-David"><img class="icon" src="github_icon.jpg"/></a><strong class="date">August 2019</strong><p> A Space-repetition language learning app. Uses internal algorithms to enhance memory retention to teach a user words and phrases in a foreign language </p><p><strong>Role:</strong> Team Member, Used pair-programming to meet the deadline and to be feature complete</p> <p><strong>Tech Stack:<i>ReactJS, cypress,ExpressJS, Jest, Charts.js</i></strong></p></li>
+          <li id="c++_project"><hr/><a href="https://github.com/dcoollx/TileMapLoaderForIRR" target="_blank">IrrMap</a><strong class="date">October 2018</strong><p>An Extension to the graphical engine <a href="http://irrlicht.sourceforge.net/" target="_blank">Irrlicht</a>, to enable easily implementing 2d tile-based rendering, this extension is also intended to be used with the tile mapping software tiled </p><strong>Personal Project</strong> <strong>Tech: C++, STL, Visual Studios</strong></li>
         </ul>
-      
           </section>
-    <section>
-      <h2 class="subTitle ">About Me</h2>
-      <p class="col-right">
-          I am a highly skilled, detail oriented full-stack developer. It is my goal to constantly look for creative solutions to today’s technology problems. I have excellent written and verbal communication skills, and I have worked as part of a team and autonomously on projects from inception through to conclusion and into implementation.
-      </p></section>
-    <section><h2 class="subTitle">Skills & Expertise</h2>
+    <section class="col-full">
+      <h2 class="subTitle">Skills & Expertise</h2>
       <div class="container">
       <ul>
       <li>Object Oriented Programming</li>
       <li>A11y complience</li>
       <li>Pair Programming</li>
       <li>MVC Architechure</li>
+      <li>Apache Cordova</li>
+      <li> Linux </li>
+      <li>Batch</li>
       </ul>
     </ul>
       <ul>
@@ -66,36 +90,48 @@
       <li>Git/Github</li>
       <li>slack</li>
       </ul>
+      <div>
+      <h3>Achivements</h3>
+      <ul>
+        <li> <i>NTHS member nation technical honor society</i></li>
+        <li> <i>Comptia A+ Certifacation </i></li>
+        <li></li>
+      </ul>
+      </div>
   
       
     </ul>
   </div>
     </section>
-    <section>
+    <section class="col-full">
       <h2 class="subTitle">Employment</h2>
     <ul class="col-right">
-      <li><strong>ThinkFul</strong><br/>
+      <li><strong>ThinkFul-Remote</strong><strong class="date">June-October 2019</strong><br/>
           Learned industry best practices and practical software development standards with a focus on HTML5, CSS3, JavaScript, jQuery, Node.js, React, Redux, and algorithms & data structures.
           Created and deployed mobile-first applicationswhile learning new languages and frameworks by collaborating several hours every week with a senior web developer, and leading small development teams
       </li>
-      <li><strong>Cobb County School District</strong>
+      <li><strong>Cobb County School District-ATL</strong><strong class="date">September 2017 - June 2019</strong>
       <br/> Worked autonomously to transport children to school in a timely manner.
       </li>
-      <li>Sheppard Bus Service</li>
-      <li><strong>Atlantic County Insitute of Technology</strong> NTHS(national technical honor society)</li>
-      </ul>
+      <li><strong>Sheppard Bus Service-NJ</strong><strong class="date">September 2015-August 2017</strong>
+        <br/> Worked autonomously to transport children to school in a timely manner.
+      </li>
+        
+    </ul>
     
     </section>
     </div>
 
   </main>
   
-  <footer id="footer">
-
+  <footer id="footer" class="container">
+      <p id="contact_info">Douglasville, Georgia >><a href="mailto: dsqjr@msn.com"> dsqjr@msn.com</a> >> (609)402-1649</p>
+    <div class="col-right">
     <p>&copy; 2019 David Queen</p>
     <a href="https://github.com/dcoollx" target="_blank">Github</a>
     <a href = "https://www.linkedin.com/in/david-queen-jr-35092a73/" target="_blank">Linkedin</a>
     <a href="https://dcoollx.github.io/Portfolio/" target="_blank">Portfolio</a>
+    </div>
   </footer>
   <script>
     //this allows html -> pdf api tp print page without the save to pdf button on bottom

@@ -9,7 +9,7 @@
 .col-right{
   grid-column: 4/span 2;
 }
-.col-right{
+.col-left{
   grid-column: 1/span 2;
 }
 .col-full{

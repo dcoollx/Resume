@@ -31,20 +31,32 @@ section > .col-right{
   }
 section{
   font-family: 'Libre Caslon Text', sans-serif;
-  font-size:75%;
   background-color: white;
+  line-height: 26px;
   padding: 2%;
   padding-left: 60px;
   padding-right: 60px;
   margin-bottom: 5px;
   }
+  .date{
+    float:right;
+  }
 .emph{
   background-color: grey;
   color:white;
   }
+  .icon{
+    height: 22px;
+    padding-bottom: -10px;
+  }
+  nav{
+    float:right;
+  }
   h1{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin:0px;
+  letter-spacing: 15px;
+  line-height: 75%;
   }
   h2{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -52,7 +64,7 @@ section{
   }
 
 h1{
-  line-height: 75%;
+  
 }
 ul{
 list-style: none;
@@ -69,8 +81,16 @@ header{
   height:1in;
   background-color: inherit;
   }
+#tech{
+  background-color: grey;
+  border:2px solid black;
+  padding-left:30px;
+  padding-right:30px;
+  border-radius: 10px;
+}
 #logo{
   color:#f3f3f3;
+  letter-spacing: initial;
   background: linear-gradient(45deg,blue,red);
   width:100px;
   height:100px;
