@@ -7,6 +7,9 @@ background-color: grey;
 margin-top:0px;
 font-family: 'Abril Fatface', cursive;
 }
+a{
+  text-decoration: none;
+}
 .subTitle{
   padding-right:0px;
   }
