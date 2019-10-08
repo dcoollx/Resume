@@ -1,15 +1,28 @@
 
+html,
+body{
+  width:8.5in;/* the size of letter paper */
+height: 11in;
+margin: 0px;
+background-color: rgba(0,0,0,0);
+}
 main{
 background-color:  #f3f3f3;
-width:8.5in;/* the size of a4 paper */
+width:8.5in;/* the size of letter paper */
 height: 11in;
 padding:0px;
-border: 1px solid black;
-font-size: 12px;
-line-height: 14px;
-margin:auto;
-border-collapse: collapse;
+font-size: 14px;
+line-height: 20px !important;
 overflow: hidden;
+}
+.hide{
+  display:none;
+}
+.print{
+  /* only show in print mode */
+  display: block;
+  text-align: center;
+  padding-top:15px;
 }
 #logo{
   height:0.4in;
@@ -22,21 +35,16 @@ h2{
   margin-top: 5px;
 }
 section{
+  line-height: 20px !important;
   padding:5px;
-  margin: 0px;
+  margin: 3px;
   box-sizing: border-box;
 }
 #footer,
 .save_to_pdf{
-  opacity: 0;
+  display:none;
 }
-#about_me{
-  grid-column: span 3;
-  float:left;
-}
-#about_me_section{
-  height:1.5in;
-}
+
 p{
   margin:0px;
 }
@@ -48,11 +56,8 @@ progress{
 }
 #tech{
   font-size: 12px;
-  padding:2px;
  z-index: 1;
-  overflow: hidden;
   border:none;
-  height:2in;
   line-height: 5px;
   grid-column: span 2;
   margin-right:-20px;

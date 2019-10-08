@@ -74,22 +74,27 @@ main{
 li{
 line-height:24px;
 }
+#contact_info{
+  margin-top:25px;
+}
 
 header{
   height:1in;
   background-color: inherit;
   }
+  .project{
+    border-bottom: solid 2px lightblue;
+  }
 #tech{
-  background-color: grey;
+  background-color: #f3f3f3;
   border:2px solid black;
   padding-left:30px;
   padding-right:30px;
   border-radius: 10px;
 }
 #logo{
-  color:#f3f3f3;
   letter-spacing: initial;
-  background: linear-gradient(45deg,blue,red);
+
   width:100px;
   height:100px;
   border-radius: 100px;
