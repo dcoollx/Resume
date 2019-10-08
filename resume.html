@@ -21,7 +21,7 @@
     <p><strong>FullStack Developer</strong></p>
   </div>
     </div>
-    <div>
+    <div class="col-right" id="contact">
     <nav>
       <a href="https://github.com/dcoollx" target="_blank">Github</a>|
       <a href = "https://www.linkedin.com/in/david-queen-jr-35092a73/" target="_blank">Linkedin</a>|
@@ -30,7 +30,7 @@
     <p id="contact_info">Douglasville, GA. >><a href="mailto: dsqjr@msn.com"> dsqjr@msn.com</a> >> (609)402-1649</p>
     </div>
   </header>
-        <section id="about_me_section" class="container">
+        <section id="about_me_section" class="container col-full">
           <div id="about_me">
             <h2 class="subTitle ">About Me</h2>
             <p>
@@ -128,7 +128,7 @@
     //this allows html -> pdf api tp print page without the save to pdf button on bottom
     setTimeout(()=>{let link = document.createElement('a');
     link.className = "save_to_pdf";
-    link.href="https://www.sejda.com/html-to-pdf?save-link&viewportWidth=800&usePrintMedia=true&pageSize=letter";
+    link.href="https://www.sejda.com/html-to-pdf?save-link&viewportWidth=800&usePrintMedia=true&pageSize=letter&Pageorientation=Portrait";
     link.target = "_blank";
     link.innerHTML = "Save to PDF";
     document.getElementById('footer').append(link);},2000)
