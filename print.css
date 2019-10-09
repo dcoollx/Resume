@@ -10,7 +10,7 @@ main{
 background-color:  #f3f3f3;
 width:8.5in;/* the size of letter paper */
 height: 11in;
-padding:0px;
+padding:5px;
 font-size: 14px;
 line-height: 20px !important;
 overflow: hidden;
@@ -29,6 +29,7 @@ overflow: hidden;
   width:0.7in;
   line-height: 0.4in;
   font-size: 0.4in;
+  border:2px solid black;
 }
 h2{
   margin-bottom: 0px;
@@ -47,6 +48,9 @@ section{
 
 p{
   margin:0px;
+}
+#about_me > p, #education_section{
+  padding-left:40px;
 }
 header{
   height:0.5in;
